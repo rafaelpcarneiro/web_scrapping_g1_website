@@ -7,7 +7,7 @@ The set of words here is is portuguese.
 
 After running
 ```
-./collcollect_data.sh
+./collect_data.sh
 ```
 A database, using the RDBMS <strong>SQLite3</strong>, called
 <em>g1database.db</em> will be created. This database
