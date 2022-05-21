@@ -40,6 +40,8 @@ To run all scripts at once issue the command
          alt='topic trends image'
     />
 </div>
+
+
 <div align='center'>
     Plot showing word frequencies -- without the stopwords
     <img src='wordcloud.svg'
