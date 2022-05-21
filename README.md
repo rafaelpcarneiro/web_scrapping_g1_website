@@ -34,12 +34,16 @@ To run all scripts at once issue the command
 ## Plots
 
 <div align='center'>
-    <img src='topic_trends.svg'
-         width='600px'
-         alt='topic trends image'
-    />
+    <figure>
+        <img src='topic_trends.svg'
+             width='600px'
+             alt='topic trends image'
+        />
 
-    Plot showing all topics and their frequencies
+        <figcaption>
+            Plot showing all topics and their frequencies
+        </figcaption>
+    </figure>
 </div>
 
 
