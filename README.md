@@ -34,20 +34,20 @@ To run all scripts at once issue the command
 ## Plots
 
 <div align='center'>
-    Plot showing all topics and their frequencies
     <img src='topic_trends.svg'
          width='600px'
          alt='topic trends image'
     />
+    Plot showing all topics and their frequencies
 </div>
 
 
 <div align='center'>
-    Plot showing word frequencies -- without the stopwords
     <img src='wordcloud.svg'
          width='600px'
          alt='wordcloud image'
     />
+    Plot showing word frequencies -- without the stopwords
 </div>
 
 ## Dependencies
