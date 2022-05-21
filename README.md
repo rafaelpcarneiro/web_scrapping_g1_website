@@ -26,6 +26,24 @@ create table articles (
 );
 ```
 
+To run all scripts at once issue the command
+```
+./run_scripts.sh
+```
+
+## Plots
+
+<div align='center'>
+    <img src='topic_trends.svg'
+         width='500px'
+         alt='topic trends image'
+    />
+    <img src='wordcloud.svg'
+         width='500px'
+         alt='wordcloud image'
+    />
+</div>
+
 ## Dependencies
 + SQLite3
 + Python3 libraries:
