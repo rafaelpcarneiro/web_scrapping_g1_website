@@ -38,6 +38,7 @@ To run all scripts at once issue the command
          width='600px'
          alt='topic trends image'
     />
+
     Plot showing all topics and their frequencies
 </div>
 
@@ -47,6 +48,7 @@ To run all scripts at once issue the command
          width='600px'
          alt='wordcloud image'
     />
+
     Plot showing word frequencies -- without the stopwords
 </div>
 
