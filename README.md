@@ -34,17 +34,12 @@ To run all scripts at once issue the command
 ## Plots
 
 <div align='center'>
-    <figure>
-        <img src='topic_trends.svg'
-             width='600px'
-             alt='topic trends image'
-        />
-
-        <figcaption>
-            Plot showing all topics and their frequencies
-        </figcaption>
-    </figure>
+    <img src='topic_trends.svg'
+         width='600px'
+         alt='topic trends image'
+    />
 </div>
+Plot showing all topics and their frequencies
 
 
 <div align='center'>
@@ -52,9 +47,8 @@ To run all scripts at once issue the command
          width='600px'
          alt='wordcloud image'
     />
-
-    Plot showing word frequencies -- without the stopwords
 </div>
+Plot showing word frequencies -- without the stopwords
 
 ## Dependencies
 + SQLite3
