@@ -44,7 +44,7 @@ To run all scripts at once issue the command
 + Plot showing word frequencies -- without the stopwords
 <div align='center'>
     <img src='wordcloud.svg'
-         width='600px'
+         width='400px'
          alt='wordcloud image'
     />
 </div>
