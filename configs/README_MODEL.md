@@ -34,7 +34,7 @@ To run all scripts at once issue the command
 ## Statistics
 | **Database statistics**   |      |
 | :---                      | :--- |
-| Number of texts collected | 140 |
+| Number of texts collected | <DATABASESIZE> |
 
 ## Plots
 

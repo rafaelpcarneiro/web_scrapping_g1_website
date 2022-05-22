@@ -14,7 +14,7 @@ with open('stopwords.txt', 'r') as f:
 
 
 ### Connect with the database
-connectToDatabase = sqlite3.connect('g1database.db')
+connectToDatabase = sqlite3.connect('../database/g1database.db')
 cursor            = connectToDatabase.cursor()
 sql_select_texts ="""
 SELECT 
@@ -47,4 +47,4 @@ plt.subplots_adjust(bottom=0, top=1, left=0, right=1)
 plt.tight_layout()
 
 plt.axis('off')
-plt.savefig('wordcloud.svg')
+plt.savefig('../imgs/wordcloud.svg')

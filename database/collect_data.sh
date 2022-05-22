@@ -1,7 +1,9 @@
 #/bin/bash
 
-today=`date "+%F"`
-echo "Extracting texts from g1.globo.com -- date: $today"
+#today=`date "+%F"`
+today=`date "+ day: %Y-%m-%d   time: %H:%M"`
+echo "Extracting texts from g1.globo.com"
+echo "------ $today"
 echo ""
 
 wget -q "https://g1.globo.com/" -O g1.html
@@ -23,4 +25,4 @@ test ! -e g1database.db && sqlite3 < create_relations.sql
 ### Deleting unnecessary files
 rm g1.json g1.html
 
-echo "All data collected and stored at -> g1database.db"
+echo "All data collected and stored at -> database/g1database.db"
