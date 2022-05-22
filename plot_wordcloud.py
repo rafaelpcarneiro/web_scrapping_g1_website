@@ -43,6 +43,8 @@ wordcloud = WordCloud(stopwords=stopwords,
 					  background_color='white').generate(text)
 
 plt.imshow(wordcloud, interpolation='bilinear')
+plt.subplots_adjust(bottom=0, top=1, left=0, right=1)
 plt.tight_layout()
+
 plt.axis('off')
 plt.savefig('wordcloud.svg')
