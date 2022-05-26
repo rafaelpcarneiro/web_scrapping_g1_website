@@ -76,7 +76,7 @@ $\mathbb{R}^3$ using the truncated SVD transformation.
          alt='R2 image'
     />
     <img src='imgs/docs_embedded_in_R3.svg'
-         width='400px'
+         width='600px'
          alt='R3 image'
     />
 </div>
