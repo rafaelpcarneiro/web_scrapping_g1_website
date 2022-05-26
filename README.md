@@ -34,7 +34,7 @@ To run all scripts at once issue the command
 ## Statistics
 | **Database statistics**   |      |
 | :---                      | :--- |
-| Number of texts collected | 272 |
+| Number of texts collected | 398 |
 
 ## Plots
 
@@ -51,6 +51,35 @@ To run all scripts at once issue the command
     <img src='imgs/wordcloud.svg'
          width='600px'
          alt='wordcloud image'
+    />
+</div>
+
+---
+
+Given the set of bag of word 
+I will project them into $R^2$ and
+$R^3$ using the truncated SVD transformation.
+<div align='center'>
+    <img src='imgs/docs_embedded_in_R3.svg'
+         width='400px'
+         alt='R2 image'
+    />
+    <img src='imgs/docs_embedded_in_R3.svg'
+         width='400px'
+         alt='R3 image'
+    />
+</div>
+
+Despite that low dimension vector spaces loses a lot of structure we 
+can still see some topics with a high distance between other topics
+
+Embedding these bag of vectors into $\mathbb{R}^{300}$ we get a better
+variance description of the phenomenons. Below a correlation plot 
+showing the relation of the $i-th$ features
+<div align='center'>
+    <img src='imgs/corr_color_map.svg'
+         width='400px'
+         alt='correlation map image'
     />
 </div>
 

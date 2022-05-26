@@ -9,7 +9,7 @@ from wordcloud import WordCloud
 
 # Stopwords
 stopwords = set([])
-with open('stopwords.txt', 'r') as f:
+with open('../stopwords.txt', 'r') as f:
 	stopwords.update( f.read().splitlines() )
 
 
