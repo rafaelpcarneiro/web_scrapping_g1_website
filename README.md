@@ -64,11 +64,12 @@ Then I will apply to each of these vectors a transformation where
 each of its coordinates will be given by their term frequency adjusted
 by the <em>idf</em> term. These <em>idf</em> terms take into consideration
 the corpus 
-#$\mathcal{C} = \\{d\; d \text{ is a document whose topic has appeared more than
-3 times \\}.$
+$$\mathcal{C} = \\{d\; d \text{ is a document whose topic has appeared more than
+3 times \\}.$$
 
-Finally, after the transformation above,  I will project the vectors into $R^2$ and
-$R^3$ using the truncated SVD transformation.
+Finally, after the transformation above,  I will project the vectors into 
+$\mathbb{R}^2$ and
+$\mathbb{R}^3$ using the truncated SVD transformation.
 <div align='center'>
     <img src='imgs/docs_embedded_in_R2.svg'
          width='400px'
