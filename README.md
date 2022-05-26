@@ -76,7 +76,7 @@ $\mathbb{R}^3$ using the truncated SVD transformation.
          alt='R2 image'
     />
     <img src='imgs/docs_embedded_in_R3.svg'
-         width='600px'
+         width='400px'
          alt='R3 image'
     />
 </div>
@@ -89,7 +89,7 @@ variance description of the phenomenon. Below a correlation plot
 showing the relation of the $i-th$ features
 <div align='center'>
     <img src='imgs/corr_color_map.svg'
-         width='400px'
+         width='600px'
          alt='correlation map image'
     />
 </div>
