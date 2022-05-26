@@ -27,6 +27,12 @@ then
     echo ""
     cd ..
 
+    echo "Embedding vectors into RN"
+    echo ""
+    cd embedding_docs_into_RN/
+    ./embedding01.py
+    cd ..
+
     # Update readme statistics
     cd configs
     sqlite3 ../database/g1database.db < databaseSize.sql
