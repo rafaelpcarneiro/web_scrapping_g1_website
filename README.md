@@ -41,7 +41,7 @@ To run all scripts at once issue the command
 + Plot showing all topics and their frequencies
 <div align='center'>
     <img src='imgs/topic_trends.svg'
-         width='400px'
+         width='600px'
          alt='topic trends image'
     />
 </div>
@@ -49,7 +49,7 @@ To run all scripts at once issue the command
 + Plot showing word frequencies -- without the stopwords
 <div align='center'>
     <img src='imgs/wordcloud.svg'
-         width='600px'
+         width='400px'
          alt='wordcloud image'
     />
 </div>
