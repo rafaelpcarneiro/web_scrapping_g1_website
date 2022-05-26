@@ -60,7 +60,7 @@ Given the set of bag of word
 I will project them into $R^2$ and
 $R^3$ using the truncated SVD transformation.
 <div align='center'>
-    <img src='imgs/docs_embedded_in_R3.svg'
+    <img src='imgs/docs_embedded_in_R2.svg'
          width='400px'
          alt='R2 image'
     />
