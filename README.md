@@ -41,7 +41,7 @@ To run all scripts at once issue the command
 + Plot showing all topics and their frequencies
 <div align='center'>
     <img src='imgs/topic_trends.svg'
-         width='400px'
+         width='500px'
          alt='topic trends image'
     />
 </div>
