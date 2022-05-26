@@ -56,8 +56,18 @@ To run all scripts at once issue the command
 
 ---
 
-Given the set of bag of word 
-I will project them into $R^2$ and
+Let $\mathcal{W}$ be the set of <em>bag of words</em>
+$$ \mathcal{W} = \\{w = (w_i) \in \mathbb{R}^{\mathcal{V}} \\},$$
+where $\mathcal{V}$ is the set of most frequent words. 
+
+Then I will apply to each of these vectors a transformation where
+each of its coordinates will be given by their term frequency adjusted
+by the <em>idf</em> term. These <em>idf</em> terms take into consideration
+the corpus 
+#$\mathcal{C} = \\{d\; d \text{ is a document whose topic has appeared more than
+3 times \\}.$
+
+Finally, after the transformation above,  I will project the vectors into $R^2$ and
 $R^3$ using the truncated SVD transformation.
 <div align='center'>
     <img src='imgs/docs_embedded_in_R2.svg'
@@ -70,11 +80,11 @@ $R^3$ using the truncated SVD transformation.
     />
 </div>
 
-Despite that low dimension vector spaces loses a lot of structure we 
-can still see some topics with a high distance between other topics
+Despite the fact that low dimension vector spaces loses a lot of structure we 
+can still see some topics with a high distance from other topics.
 
-Embedding these bag of vectors into $\mathbb{R}^{300}$ we get a better
-variance description of the phenomenons. Below a correlation plot 
+Embedding these vectors into $\mathbb{R}^{300}$ we get a better
+variance description of the phenomenon. Below a correlation plot 
 showing the relation of the $i-th$ features
 <div align='center'>
     <img src='imgs/corr_color_map.svg'
