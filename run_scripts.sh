@@ -37,7 +37,7 @@ then
     cd configs
     sqlite3 ../database/g1database.db < databaseSize.sql
     databaseSize=`cat databaseSize.txt`
-    sed "s/<DATABASESIZE>/$databaseSize/" README_MODEL.md  > \
+    sed "s/<DATABASESIZE>/$databaseSize/" README.md.template  > \
                                          ../README.md
     cd ..
 else
