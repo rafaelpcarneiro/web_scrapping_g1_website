@@ -13,12 +13,19 @@ SELECT
 FROM
 	articles
 GROUP BY 
-	section"""
+	section
+ORDER BY
+	COUNT(*) DESC
+LIMIT 20"""
 
 topics = cursor.execute(sql_select_topics).fetchall()
+#print(f"#topics = {len(topics)}\n")
 
 topic_names  = [topic[0] for topic in topics]
 topic_counts = [topic[1] for topic in topics]
+
+#for t in set(topic_names):
+#	print(t, '\n')
 
 plt.barh(topic_names, topic_counts)
 plt.yticks(rotation=00, fontsize=5)

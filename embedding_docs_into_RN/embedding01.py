@@ -27,17 +27,17 @@ sql_select_texts = """
 	FROM
 		articles
 	WHERE
-		section IN
-			(SELECT
+		section IN (
+			SELECT
+				X.section 
+			FROM 
+				articles AS X
+			GROUP BY 
 				X.section
-			 FROM 
-			 	articles AS X
-			 GROUP BY 
-			 	X.section
-			 HAVING
-			 	COUNT(*) >= 3
-			)
-"""
+			ORDER BY
+				COUNT(*) DESC
+			LIMIT 20
+		)"""
 
 ### Fetching data and storing it
 sql_result = cursor.execute(sql_select_texts).fetchall()
